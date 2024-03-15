@@ -1,0 +1,95 @@
+/* For Small Laptops-width:769px-1024px */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Below CSS styles is common for all webpages i.e header,navbar and footer. The upcoming styles after
+this comment are for separate pages. */
+.navbar {
+    height: 15vh;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.nav-left {
+    font-size: 1.2rem;
+}
+
+nav ul li {
+    margin: 0 5px;
+    flex-wrap: wrap;
+}
+
+.footers {
+    height: 18vh;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+/* The given below styles are for index.html */
+
+.firstSection {
+    width: 100%;
+    margin: 2rem 0;
+    margin-left:0.5rem;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.secondSection {
+    width: 100%;
+    margin-bottom: 12rem;
+}
+
+.secondSection img {
+    max-width: 100%;
+}
+
+.skills {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* The given below styles are for about.html */
+
+.education {
+    margin: 0;
+}
+
+.education table,
+tr,
+td {
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+}
+
+.profile {
+    margin: 2rem 2rem;
+}
+
+.achievement{
+    margin: 2rem 2rem;
+}
+
+/* The given below styles are for project.html */
+.project{
+    margin: 2rem 2rem;
+}
+
+/* The given below styles are for contact.html */
+.contact-details{
+    margin: 2rem 2rem;
+}
+
+}
