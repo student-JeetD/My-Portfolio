@@ -184,3 +184,7 @@ table,tr,td{
 .project ul{
     list-style-type: square;
 }
+
+.project a{
+    color:white;
+}
