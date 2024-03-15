@@ -1,0 +1,100 @@
+/* For Mobile Phones- width:320px-480px*/
+
+@media only screen and (min-width:320px) and (max-width: 480px) {
+
+    /* Below CSS styles is common for all webpages i.e header,navbar and footer. The upcoming styles after
+this comment are for separate pages. */
+    .navbar {
+        height: 30vh;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .nav-left {
+        font-size: 1.2rem;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+        flex-wrap: wrap;
+    }
+
+    .footers {
+        height: 10vh;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    /* The given below styles are for index.html */
+    .firstSection {
+        width: 100%;
+        margin: 2rem 0;
+        margin-left:0.2rem;
+    }
+
+    .firstSection>div {
+        width: 50%;
+    }
+
+    .leftSection {
+        font-size: 1.5rem;
+    }
+
+    .rightSection img {
+        width: 100%;
+    }
+
+    .secondSection {
+        width: 100%;
+    }
+
+    .secondSection img {
+        max-width: 100%;
+    }
+
+    .skills {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    /* The given below styles are for about.html */
+
+    .profile {
+        overflow-y: scroll;
+        overflow-x: unset;
+        width:100%;
+        margin: 2rem 2rem;
+    }
+    
+    .education {
+        overflow-y: scroll;
+        overflow-x: unset;
+        width:100%;
+        margin: 0;
+    }
+
+    .education table,tr,td {
+        width: 100%;
+        padding: 0;
+        overflow-y: scroll;
+        overflow-x: unset;
+    }
+
+    .achievement{
+        margin: 2rem 2rem;
+        width:100%;
+    }
+
+    /* The given below styles are for project.html */
+    .project{
+        margin: 2rem 2rem;
+    }
+
+    /* The given below styles are for contact.html */
+    .contact-details{
+        margin: 2rem 2rem;
+    }
+}
