@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <!--Google Fonts 'Poppins' Added-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!--Stylesheets Added alongwith Media Queries for Phone, Tablet and Small Laptops-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="only screen and (min-width:320px) and (max-width:480px)" href="phone.css">
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 768px)" href="tablet.css">
+    <link rel="stylesheet" media="only screen and (min-width:769px) and (max-width:1024px)" href="small_laptop.css">
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">Jeet Dholakia's Portfolio</div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i> Home </a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-user"></i> About Me </a></li>
+                    <li><a href="project.html"><i class="fa-solid fa-code"></i> Projects </a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-phone"></i> Contact </a></li>
+                    <li><a href="https://github.com/student-JeetD" target="_blank"><i class="fa-brands fa-github"></i> GitHub </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- My Profile -->
+        <div class="profile">
+            <h2>My Profile</h2><br>
+            <ul>
+                <li>Name: Jeet Dholakia</li> <br>
+                <li>Interest: Web Development and Software Technology Enthusiast </li> <br>
+                <li>Skills:-
+                    <br> <br>
+                    1 &#41; HTML <br>
+                    <progress id="html" value="90" max="100"></progress> <br>
+                    2 &#41; CSS <br>
+                    <progress id="css" value="70" max="100"></progress> <br>
+                    3 &#41; JavaScript <br>
+                    <progress id="js" value="50" max="100"></progress> <br>
+                    4 &#41; C++ <br>
+                    <progress id="cpp" value="70" max="100"></progress> <br>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Educational Qualification -->
+        <div class="education">
+            <h2>Educational Qualification</h2><br>
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution Name</th>
+                    <th>School/College</th>
+                    <th>Year</th>
+                    <th>Percentile/Grade</th>
+                </tr>
+                <tr>
+                    <td>B.Tech in Computer Engineering</td>
+                    <td>Gujarat Technological University&#40;GTU&#41;</td>
+                    <td>Birla Vishvakarama Mahavidyalaya Engineering College, Anand</td>
+                    <td>2026</td>
+                    <td><b>Currently Pursuing</b></td>
+                </tr>
+                <tr>
+                    <td>HSC&#40;12<sup>th</sup>&#41;</td>
+                    <td>Gujarat Secondary and Higher Secondary Education Board&#40;GSEB&#41;</td>
+                    <td>St. Kabir School, Vadodara</td>
+                    <td>2022</td>
+                    <td>99.56/A2</td>
+                </tr>
+                <tr>
+                    <td>SSC&#40;10<sup>th</sup>&#41;</td>
+                    <td>Gujarat Secondary and Higher Secondary Education Board&#40;GSEB&#41;</td>
+                    <td>St. Kabir School, Vadodara</td>
+                    <td>2020</td>
+                    <td>98.99/A2</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Achievements -->
+        <div class="achievement">
+            <h2>Achievements</h2><br>
+            <ul>
+                <li>Participated in Soft Skills Accelerator Seminar on 19th Feb, 2024.</li>
+                <li>Participated in a Coding Contest at Hackerrank on 1st Feb, 2024.</li>
+                <li>Participated in a Coding Contest at Hackerrank on 9th May, 2023.</li>
+                <li>Participated in Interhouse IT Quiz Competition at school level and finished at second position in
+                    the Quiz.</li>
+                <li>Participated in conferences like Gujarat Model United Nations &#40;GJMUN&#41;, on 27-28<sup>th</sup>
+                    October, 2018 and received a special mention.</li>
+            </ul>
+        </div>
+    </main>
+    
+    <!-- Footer with Navigation Links-->
+    <footer>
+        <div class="footers">
+            <h3>&#169;Jeet Dholakia's Portfolio 2024</h3>
+            <div class="footer-first"><a href="index.html"> Home </a> </div>
+            <div class="footer-second"> <a href="about.html"> About Me </a> </div>
+            <div class="footer-third"> <a href="project.html"> Projects </a> </div>
+            <div class="footer-fourth"> <a href="contact.html"> Contact </a> </div>
+            <div class="footer-fifth"><a href="https://github.com/student-JeetD" target="_blank"><i class="fa-brands fa-github"></i> GitHub </a></div>
+        </div>
+    </footer>
+</body>
+</html>
