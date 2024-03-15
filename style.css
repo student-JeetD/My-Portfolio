@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+    color:white;
+    font-family:'Poppins','sans-serif';
+}
+
+/* This is for Navigation Bar */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: #08085c;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin:0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.nav-left{
+    font-size:1.5rem;
+}
+
+.nav-right a:hover{
+    color:lavender;
+    cursor:pointer;
+    font-size:1.01rem;
+}
+
+/* This is for Footer */
+
+footer{
+    background-color: #08085c;
+    height:80px;
+}
+
+.footers{
+    margin:50px 60px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footers a{
+    text-decoration: none;
+    color:white;
+}
+
+.footers a:hover{
+    color:lavender;
+    cursor:pointer;
+    font-size:1.01rem;
+}
+
+/* Above CSS styles is common for all webpages i.e header,navbar and footer. The upcoming styles after
+this comment are for separate pages. */
+
+/* The given below styles are for index.html */
+
+.firstSection{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:100px 0;
+}
+
+.firstSection > div{
+    width:30%;
+}
+
+.leftSection{  
+    font-size:3rem;  
+}
+
+.rightSection img{
+    width:80%;
+}
+
+.text-purple{
+    color:#8b4ec5;
+}
+
+#element{
+    color:#8b4ec5;
+}
+
+.secondSection hr{
+    border: 0;
+    height: 1.2px;
+    background-color: #9c97f1;
+    margin: 40px 80px;
+}
+
+.secondSection h2{
+    margin:10px 100px;
+    text-align: center;
+}
+
+.skills{
+    margin-top:30px;
+    margin-left:100px;
+}
+
+.skills ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.details{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+/* The given below styles are for about.html */
+
+.profile{
+    margin: 30px 70px;
+}
+
+.profile ul{
+    list-style: none;
+}
+
+.education{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+table,tr,td{
+    border:2px solid rgb(7, 132, 141);
+    border-collapse: collapse;
+    border-radius: 3px;
+    padding:5px;
+    width: 80%;
+}
+
+.achievement{
+    margin: 30px 70px;
+}
+
+.achievement ul{
+    list-style-type:square;
+}
+
+/* The given below styles are for contact.html */
+
+.contact-details{
+    margin: 30px 70px;
+}
+
+.contact-details ul{
+    list-style: none;;
+}
+
+.contact-details a{
+    color:white;
+}
+
+/* The given below styles are for project.html */
+
+.project{
+        margin: 30px 70px;
+}
+
+.project ul{
+    list-style-type: square;
+}
