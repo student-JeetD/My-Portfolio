@@ -1,7 +1,7 @@
 # My-Portfolio
 My First Project- Build a Responsive Website
-<br> This project is based on my Portfolio. It is created using HTML, CSS and JavaScript. It is a responsive website and works <br>
-according to different screen sizes and devices like mobile phones, tablets and laptops. The features of this website include <br>
+<br> This project is based on my Portfolio. It is created using HTML, CSS and JavaScript. It is a responsive website and works 
+according to different screen sizes and devices like mobile phones, tablets and laptops. The features of this website include 
 linking, typed javascript with animation, navigation links, good UI design, etc. <br> <br>
 
 There are two ways to run and view this Project:- <br>
